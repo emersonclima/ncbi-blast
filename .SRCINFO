@@ -1,0 +1,15 @@
+pkgbase = ncbi-blast
+	pkgdesc = BLAST Command Line Applications
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://blast.ncbi.nlm.nih.gov/Blast.cgi
+	arch = x86_64
+	license = LGPL2.1
+	depends = perl
+	depends = zlib
+	depends = libidn
+	source = ftp://ftp.ncbi.nih.gov/blast/executables/blast+/2.6.0/ncbi-blast-2.6.0+-x64-linux.tar.gz
+	md5sums = 681b6ecf8d1d08b63f5f940fb53bd6e8
+
+pkgname = ncbi-blast
+
